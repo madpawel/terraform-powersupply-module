@@ -17,7 +17,6 @@ variable "tag_value" {
   description = "tag value to filter instance to take action on"
 }
 
-
 variable "time" {
   type    = "string"
   default = ""
