@@ -1,6 +1,8 @@
 Terraform module that can turn off/on environment based on ec2 tag.
 We can also define hours when environment should turn off or on, or contral it manualy
 
+Module create lambda function, that is doing all the work.
+
 example :
 
 Power on:
