@@ -8,7 +8,7 @@ example :
 Power on:
 
      module "power_off" {
-       source    = "./powersupply"
+       source    = "git::https://github.com/madpawel/terraform-powersupply-module.git"
        env_name  = "staging"
        tag_name  = "instance-role"
        tag_value = "web"
@@ -20,7 +20,7 @@ Power off:
 
 
     module "power_on" {
-      source    = "./powersupply"
+      source    = "git::https://github.com/madpawel/terraform-powersupply-module.git"
       env_name  = "staging"
       tag_name  = "instance-role"
       tag_value = "web"
